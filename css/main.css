@@ -18,12 +18,12 @@ body {
 #main_menu_list a{
 	color: #fff;
   	cursor: pointer; /* shows that the option is clickable */
-  	font-family: 'Open Sans', sans-serif;
+  	font-family: 'Amiko', sans-serif;
   	font-size: 16px;
   	text-decoration: none;
   	text-transform: uppercase;
   	display: inline-block;
-  	padding: 18px;
+  	padding: 15px;
 }
 #main_menu_list li{
 	display: inline;
@@ -67,7 +67,7 @@ body {
 /* Styling of each list in the menu */
 .menu li {
   /*border-bottom: 1px solid #636366; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Amiko', sans-serif;
   /*line-height: 45px;*/
   padding-bottom: 3px;
   padding-left: 20px;
@@ -96,7 +96,6 @@ body {
   top: 5px;
   left: -1px;
   cursor: pointer; /* shows that the option is clickable */
-  font-family: 'Open Sans', sans-serif;
   padding-top: 25px;
   padding-bottom: 25px;
   padding-right: 20px;
