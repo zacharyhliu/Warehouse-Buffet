@@ -22,15 +22,16 @@
 		<!-- Beginning of Menu -->
 		<div class="menu-container">
 			<h3 class="kbbq-menu-title"> ALL YOU CAN EAT KBBQ</h3>
-			<!--?php include '../php/kbbqMenu.php';?-->
+			<p class="kbbq-lunch-menu-1">
+			<!-- php code that parses the menu text file -->
 			<?php 
 				$myKbbqMenu = fopen("../txt/kbbqMenu.txt", "r") or die("Connection Problem");
-				// Output one line until end-of-file
-				while(!foef($myKbbqMenu)){
+				while(!feof($myKbbqMenu)){
 					echo fgets($myKbbqMenu) . "<br>";
 				}
 				fclose($myKbbqMenu);
 			?>
+		</p>
 		</div>
 		<!-- End of menu -->
 
