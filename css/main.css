@@ -36,7 +36,7 @@ body {
 /* The Menu Screen when before it is clicked */
 .menu {
 	/* Background short-hand properties*/
-	background: url("menuBg.jpg") repeat left top;
+	background: url("../images/menuBg.jpg") repeat left top;
 	left: -285px; /*Starts off behind the scene */
 	height: 100%; /* takes the whole height*/
 	position: fixed;
@@ -46,7 +46,7 @@ body {
 /*Basic styling */
 
 .wbMain {
-	background-image: url("kbbqFrontPage.jpg"); 
+	background-image: url("../images/kbbqFrontPage.jpg"); 
 	height: 100%;
 	/* Web server built in renderer */
 	-webkit-background-size: cover;
