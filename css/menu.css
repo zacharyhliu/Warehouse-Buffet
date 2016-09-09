@@ -1,0 +1,58 @@
+body, html {
+	height: 100%;
+	margin: 0;
+
+	
+	
+}
+/* -----------------Top part of menu page --------------------*/
+.bgimg-1{
+	position: relative;
+	background-attachment: fixed; /* wont scroll background */
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../images/menuTopImg.jpg");
+	min-height: 100%;
+	/* Web server built in renderer */
+	-webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+
+.caption-1 {
+	position: absolute;
+	left: 0;
+	top: 67%;
+	width: 100%;
+  	text-align: center;
+  	font-family: "Tangerine", cursive; 
+  	font-size: 70px;
+  	font-weight: 400;
+  	color: #FFF;
+}
+/* -----------End of top part menu page -------------------- */
+
+/* -----------Beginning of the menu ------------------------- */
+.menu-container {
+	background-color: #000;
+	text-align: justify;
+}
+
+.kbbq-menu-title {
+	text-align: center;
+	color: #b48908;
+	font-family: 'Droid serif', serif;
+	font-weight: 400; /* how bold it is */
+	font-size: 36px;
+	font-style: italic;
+	padding: 80px;
+}
+
+.kbbq-lunch-menu-1 {
+	color: #eee;
+	font-family: 'Karla', sans-serif;
+}
+
+
+
