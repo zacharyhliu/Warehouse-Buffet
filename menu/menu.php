@@ -21,7 +21,7 @@
 
 		<!-- Beginning of Menu -->
 		<div class="menu-container">
-			<h3 class="kbbq-menu-title"> ALL YOU CAN EAT KBBQ</h3>
+			<div class="kbbq-menu-title"> ALL YOU CAN EAT KBBQ</div>
 			<p class="kbbq-lunch-menu-1">
 			<!-- php code that parses the menu text file -->
 			<?php 

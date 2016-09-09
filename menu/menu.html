@@ -21,16 +21,17 @@
 
 		<!-- Beginning of Menu -->
 		<div class="menu-container">
-			<h3 class="kbbq-menu-title"> ALL YOU CAN EAT KBBQ</h3>
-			<!--?php include '../php/kbbqMenu.php';?-->
-			<?php 
-				$myKbbqMenu = fopen("../txt/kbbqMenu.txt", "r") or die("Connection Problem");
-				// Output one line until end-of-file
-				while(!foef($myKbbqMenu)){
-					echo fgets($myKbbqMenu) . "<br>";
-				}
-				fclose($myKbbqMenu);
-			?>
+			<div class="kbbq-menu-title"> ALL YOU CAN EAT KBBQ</div>
+			<p class="kbbq-lunch-menu-1">
+				<?php 
+					$myKbbqMenu = fopen("../txt/kbbqMenu.txt", "r") or die("Connection Problem");
+					// Output one line until end-of-file
+					while(!foef($myKbbqMenu)){
+						echo fgets($myKbbqMenu) . "<br>";
+					}
+					fclose($myKbbqMenu);
+				?>
+			</p>
 		</div>
 		<!-- End of menu -->
 
