@@ -1,10 +1,107 @@
 body, html {
 	height: 100%;
 	margin: 0;
-
-	
-	
+	left: 0;
+  position: relative;
+	background-color: #000;
 }
+
+.wbLogo {
+}
+
+/* ---------------- Beginning of Side Menu Nav ----------------*/
+.menu {
+  /* Background short-hand properties*/
+  /*background: url("../images/menuBg.jpg") repeat left top;*/
+  right: -355px; /*Starts off behind the scene */
+  height: 100%; /* takes the whole height*/
+  position: fixed;
+  width: 355px;
+}
+.menu ul {
+  /*border-top: 1px solid #636366;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+/* Styling of each list in the menu */
+.menu li {
+  /*border-bottom: 1px solid #636366; */
+  font-family: 'Amiko', sans-serif;
+  /*line-height: 45px;*/
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* The Text in the Menu */
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* The icon close button */
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* The menu Name */
+.icon-menu i {
+  margin-right: 5px;
+}
+/* ---------------- End of Side Menu Nav ---------------------*/
+
+
+/* -----------------Beginning of Navigation -------------------*/
+
+.main_menu_container ul {
+	list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+
+}
+/*The main menu screen links */
+#main_menu_list a{
+	color: #fff;
+  	cursor: pointer; /* shows that the option is clickable */
+  	font-family: 'Yatra One', sans-serif;
+  	font-size: 16px;
+  	text-decoration: none;
+  	text-transform: uppercase;
+  	display: inline-block;
+  	padding: 15px;
+  	padding-top: 35px;
+  	position: relative;
+    left: 750px;
+}
+#main_menu_list li{
+	display: inline;
+}
+.more_menu {
+  color: #fff;
+  position: relative;
+  top: 5px;
+  left: -1px;
+  cursor: pointer; /* shows that the option is clickable */
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 20px;
+  padding-left: 5px;
+  text-decoration: none;
+  text-transform: uppercase;
+   left: 750px;
+}
+
+/* -----------------End of Navigation -------------------------*/
+
 /* -----------------Top part of menu page --------------------*/
 .bgimg-1{
 	position: relative;
@@ -43,7 +140,6 @@ body, html {
 .kbbq-menu-title {
 	text-align: center;
 	color: #b48908;
-	font-family: 'Droid serif', serif;
 	font-weight: 400; /* how bold it is */
 	font-size: 36px;
 	font-style: italic;
@@ -56,6 +152,17 @@ body, html {
 	padding: 40px;
 
 }
+/* ----------- End of the menu -------------------------- */
+
+/* ----------- Beginning of Footer ---------------------- */
+.copyright {
+  color: #ABB2B9;
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+  padding: 40px;
+}
+
+/* ----------- End of Footer ---------------------------- */
 
 
 
