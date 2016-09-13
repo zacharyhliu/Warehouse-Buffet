@@ -4,9 +4,13 @@ body, html {
 	left: 0;
   position: relative;
 	background-color: #000;
+  overflow-x: hidden;
 }
 
-.wbLogo {
+.wbLogo{
+  position: absolute;
+  padding: 18px;
+  color: #FFF;
 }
 
 /* ---------------- Beginning of Side Menu Nav ----------------*/
@@ -57,57 +61,57 @@ body, html {
 }
 /* ---------------- End of Side Menu Nav ---------------------*/
 
-
-/* -----------------Beginning of Navigation -------------------*/
-
-.main_menu_container ul {
-	list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-
-
+/* -----------------Beginning of Main Navigation Bar-------------------*/
+/*The main_menu_list*/
+.navigation-bar {
+  background-color: rgba(0,0,0,0.8);
+  position: absolute;
+  width: 100%;
+  text-align: right;
 }
+
+#main-menu-block {
+  margin: 0 auto;
+  width: 1200px;  
+}
+
+.main_menu_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*The main menu screen links */
 #main_menu_list a{
-	color: #fff;
-  	cursor: pointer; /* shows that the option is clickable */
-  	font-family: 'Yatra One', sans-serif;
-  	font-size: 16px;
-  	text-decoration: none;
-  	text-transform: uppercase;
-  	display: inline-block;
-  	padding: 15px;
-  	padding-top: 35px;
-  	position: relative;
-    left: 750px;
-}
-#main_menu_list li{
-	display: inline;
-}
-.more_menu {
   color: #fff;
-  position: relative;
-  top: 5px;
-  left: -1px;
   cursor: pointer; /* shows that the option is clickable */
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 20px;
-  padding-left: 5px;
+  font-family: 'Yatra One', sans-serif;
+  font-size: 16px;
   text-decoration: none;
   text-transform: uppercase;
-   left: 750px;
+  padding-top: 55px;
 }
 
-/* -----------------End of Navigation -------------------------*/
+#main_menu_list li{
+  display: inline;
+  text-align: right;
+  padding-right: 150px;
+}
+/* Both the menu name and the icon */
+.more_menu {
+  color: #fff;
+  cursor: pointer; /* shows that the option is clickable */
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 64%;
+  right: 60px;
+}
+/* ------------------ End of Main Navigation Bar--------------------*/
 
 /* -----------------Top part of menu page --------------------*/
 .bgimg-1{
-	position: relative;
-	background-attachment: fixed; /* wont scroll background */
-	background-position: center;
-	background-repeat: no-repeat;
+	
 	background-image: url("../images/menuTopImg.jpg");
 	min-height: 100%;
 	/* Web server built in renderer */
@@ -123,7 +127,7 @@ body, html {
 	top: 67%;
 	width: 100%;
   	text-align: center;
-  	font-family: "Tangerine", cursive; 
+  	font-family: "Yatra One", sans-serif;
   	font-size: 70px;
   	font-weight: 400;
   	color: #FFF;

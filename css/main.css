@@ -5,16 +5,36 @@ body {
 	margin: 0;
 	position: relative;
   background-color: #000;
+  overflow-x: hidden;
 }
 
-/* -----------------Beginning of Navigation -------------------*/
-/*The main_menu_list*/
-.main_menu_container ul {
-	list-style: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+.wbLogo{
+  position: absolute;
+  padding: 18px;
+  float: left;
+  color: #FFF;
 }
+
+/* -----------------Beginning of Main Navigation Bar-------------------*/
+/*The main_menu_list*/
+.navigation-bar {
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  text-align: right;
+}
+
+#main-menu-block {
+  margin: 0 auto;
+  width: 1200px;  
+}
+
+.main_menu_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
 /*The main menu screen links */
 #main_menu_list a{
 	  color: #fff;
@@ -23,62 +43,59 @@ body {
   	font-size: 16px;
   	text-decoration: none;
   	text-transform: uppercase;
-  	display: inline-block;
-  	padding: 15px;
-    padding-top: 35px;
-    position: relative;
-    left: 750px;
+    padding-top: 55px;
 }
+
 #main_menu_list li{
 	display: inline;
+  text-align: right;
+  padding-right: 150px;
 }
 /* Both the menu name and the icon */
 .more_menu {
   color: #fff;
-  position: relative;
-  top: 5px;
-  left: -1px;
   cursor: pointer; /* shows that the option is clickable */
-  padding-top: 25px;
-  padding-bottom: 25px;
-  padding-right: 20px;
-  padding-left: 5px;
   text-decoration: none;
   text-transform: uppercase;
-    left: 750px;
+  position: absolute;
+  top: 64%;
+  right: 60px;
 }
-/* ------------------ End of Navigation --------------------*/
+/* ------------------ End of Main Navigation Bar--------------------*/
 
 /* ------------------ first part of page ------------------*/
-/*Basic styling */
 .bgimg-1 {
 	background-image: url("../images/kbbqFrontPage.jpg"); 
-	height: 100%;
+	min-height: 100%;
 	/* Web server built in renderer */
 	-webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
 }
-
-.caption-1 {
+.wb-name-block {
+  background-color: rgba(0,0,0,0.7);
   position: absolute;
-  left: 0;
-  top: 30%;
-  width: 100%;
+  transform: translate(37%, 80%); 
+  
+}
+.caption-1 {
   text-align: center;  
-  font-size: 70px;
   font-weight: 400;
   color: #FFF;
+  margin: 50px;
 }
 .descript-1 {
-  font-family: "Tangerine", cursive; 
+  font-family: "Dancing Script", sans-serif; 
+  font-size: 30px;
 }
 .wb_name {
   font-family: 'Yatra One', sans-serif;
+  font-size: 70px;
 }
 .descript-2 {
-  font-family: "Tangerine", cursive; 
+  font-family: "Dancing Script", sans-serif;  
+  font-size: 30px;
 }
 
 /* The Menu Screen when before it is clicked */
@@ -93,7 +110,25 @@ body {
   
 
 }
-/* ------------------- Last part of Page -----------------*/
+/* ------------------- End of first part of Page -----------------*/
+
+
+/* ------------------- Second part of Page ----------------------*/
+.bgimg-2 {
+  position: relative;
+  background-attachment: fixed; /* wont scroll background */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/frontPage-2.jpg"); 
+  min-height: 60%;
+  /* Web server built in renderer */
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+/* ------------------- End of Second part of Page ---------------*/
+
 
 /* ---------------- Beginning of Side Menu Nav ----------------*/
 /* Styling of the unordered list */
@@ -138,11 +173,11 @@ body {
 
 /* ---------------- Beginning of Our Vision Block --------------- */
 
-.our-rest-block {
+.our-vision-block {
   background-color: #000;
   text-align: justify;
 }
-.kbbq-menu {
+.kbbq-vision-title {
   text-align: center;
   color: #b48908;
   font-weight: 400; /* how bold it is */
@@ -150,6 +185,27 @@ body {
   font-style: italic;
   padding: 80px;
 }
+.vision-pic {
+  position: absolute;
+  left: 20%;
+  top: 38%;
+}
+.our-vision-words {
+  color: #FFF;
+  position: relative;
+  left:60%;
+  padding-bottom: 200px;
+}
+/* --------------- Ending of Our Vision Block ---------------- */
+
+
+/* --------------- Beginning of Our Price Block -------------- */
+.our-price-block {
+  background-color: #000;
+  text-align: justify;
+}
+
+/* --------------- Ending of Our Price Block ----------------- */
 
 
 /* ----------- Beginning of Footer ---------------------- */
@@ -159,7 +215,20 @@ body {
   font-size: 12px;
   padding: 40px;
 }
-
+.kbbq-price-title {
+  text-align: center;
+  color: #b48908;
+  font-weight: 400; /* how bold it is */
+  font-size: 36px;
+  font-style: italic;
+  padding: 80px;
+}
+.our-price-words {
+  color: #FFF;
+  position: relative;
+  left:60%;
+  padding-bottom: 200px;
+}
 /* ----------- End of Footer ---------------------------- */
 
 

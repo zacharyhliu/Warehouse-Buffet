@@ -4,15 +4,17 @@
 	<head>
 
 		<title>Warehouse Buffet | Warehouse Buffet</title>
+		<link rel="icon" type="image/png" href="favicon.png">
 
 		<!-- Import css libraries -->
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
 		<link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Amiko' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet' type='text/css'>
     	<link href='css/main.css' rel='stylesheet'>
     	<link href='css/hover-min.css' rel='stylesheet'>
-    	<link href='css/scrollAnimation.css' rel='stylesheet'>
+    	<link href='css/indexScrollAnimation.css' rel='stylesheet'>
 
 		<!-- Include jQuery libraries from Google, loads jQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
@@ -23,14 +25,30 @@
 	<!-- Main content of the browser -->
 	<body>
 
-		<!-- The menu layout that is grouped(div) and called it "menu". will be edited with css or javascript-->
-		<div class="menu">
+		<div class="navigation-bar">
+			<!-- Begin Nav Main menu -->
+			<div id="main-menu-block">
+				<!-- Logo of WB -->
+				<div class="wbLogo"><img src="images/wbLogo.jpg"></div>
+				<!-- The main menu list -->
+				<ul id="main_menu_list"> 
+					<li class="main_menu_home"><a href="index.html"class="hvr-float-shadow">Home</a></li>
+					<li class="main_menu_menu"><a href="menu/menu.php"class="hvr-float-shadow">Menu</a></li>
+					<li class="main_menu_location"><a href="#"class="hvr-float-shadow">Location</a></li>
+					<li class="main_menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
+					<!--li class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></li-->
+				</ul>
+				<div class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></div>
 
+			</div>
+		</div>
+
+		<!-- Beginning of Side Navigation Bar-->
+		<div class="menu">
 			<!-- The Close Menu icon (The X)-->
 			<div class="icon-close">
 				<img src="images/icon_close.png">
 			</div>
-
 			<!-- Menu -->
 			<ul>
 				<!-- a href is a link to something placeholer #-->
@@ -43,41 +61,44 @@
 
 
 		<!-- The main body of the front page -->
-		<div class="bgimg-1">
-			<div class="wbLogo"><img src="images/logoP.png"></div>
-
-			<!-- Begin Nav Main menu -->
-			<div class="main_menu_containter">
-				<!-- The main menu list -->
-				<ul id="main_menu_list"> 
-					<li class="main_menu_home"><a href="index.html"class="hvr-float-shadow">Home</a></li>
-					<li class="main_menu_menu"><a href="menu/menu.php"class="hvr-float-shadow">Menu</a></li>
-					<li class="main_menu_location"><a href="#"class="hvr-float-shadow">Location</a></li>
-					<li class="main_menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
-					<li class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></li>
-				</ul>
-			</div>
-			<!-- End Nav Main menu -->
-
+		<div class="bgimg-1" >
+			<div class="wb-name-block">
 			<div class="caption-1">
-				<span class="descript-1">Taste All You Can Eat Excellence</span>
+				<span class="descript-1">Excellence You Can Taste</span>
 				<br>
 				<span class="wb_name">Warehouse Buffet</span>
 				<br>
 				<span class="descript-2">Korean B.B.Q. & Hotpot</span>
 				<div class="arrow bounce"></div>
 			</div>
+			</div>
 		</div>
 		<!-- End of Main Body of page -->
 
 		<!-- Beginning of second containter -->
-		<div class="our-rest-block">
-			<div class="kbbq-menu">Our Vision</div>
-
+		<div class="our-vision-block">
+			<div class="kbbq-vision-title">Our Vision</div>
+			<div class="vision-pic"><img src=""></div>
+			<div class="our-vision-words">
+				hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>
+			</div>
 		</div>
 		<!-- End of second container -->
 
+		<!-- Beginning of bgimg-2 -->
+		<div class="bgimg-2">
+		</div>
+		<!-- End of bgimg-2 -->
 
+
+		<!-- Beginning of Third containter -->
+		<div class="our-price-block">
+			<div class="kbbq-price-title">Our Hours & Prices</div>
+			<div class="our-price-words">
+				hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>hi<br>
+			</div>
+		</div>
+		<!-- End of Third container -->
 
 		<!-- Beginning of footer -->
 		<hr></hr>

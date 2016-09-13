@@ -1,12 +1,14 @@
 <html>
 	<head>
 		<title>Our Menu | Warehouse Buffet</title>
+		<link rel="icon" type="image/png" href="../favicon.png">
 
 		<!-- Import css libraries -->
 		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     	<link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Karla' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet' type='text/css'>
     	<link href='../css/menu.css' rel='stylesheet'>
     	<link href='../css/hover-min.css' rel='stylesheet'>
     	<link href='../css/scrollAnimation.css' rel='stylesheet'>
@@ -18,15 +20,34 @@
 	<head>
 
 	<body>
+		
+		<!-- Beginning of Main Navigation Bar -->
+		<div class="navigation-bar">
+			<!-- Begin Nav Main menu -->
+			<div id="main-menu-block">
+				<!-- Logo of WB -->
+				<div class="wbLogo"><img src="../images/wbLogo.jpg"></div>
+				<!-- The main menu list -->
+				<ul id="main_menu_list"> 
+					<li class="main_menu_home"><a href="../index.html"class="hvr-float-shadow">Home</a></li>
+					<li class="main_menu_menu"><a href="menu.php"class="hvr-float-shadow">Menu</a></li>
+					<li class="main_menu_location"><a href="#"class="hvr-float-shadow">Location</a></li>
+					<li class="main_menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
+					<!--li class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></li-->
+				</ul>
+				<div class="more_menu"><img src="../images/menu-icon.png"class="hvr-float-shadow"></div>
 
-		<!-- Beginning of Side Menu Nav-->
+			</div>
+		</div>
+		<!-- End of Main Navigation Bar -->
+
+		<!-- Beginning of Side Navigation Bar-->
 		<div class="menu">
 
 			<!-- The Close Menu icon (The X)-->
 			<div class="icon-close">
 				<img src="../images/icon_close.png">
 			</div>
-
 			<!-- Menu -->
 			<ul>
 				<!-- a href is a link to something placeholer #-->
@@ -37,26 +58,12 @@
 			</ul>
 		</div> 
 		<!-- end of Side Menu Nav-->
+
 		<!-- This is the top part of the menu page -->
 		<div class="bgimg-1">
 
-			<!-- Beginning of Navigation -->
-			<div class="main_menu_containter" id="nav_container">
-				<div class="wbLogo"><img src="../images/logoP.png"></div>
-					<!-- The main menu list -->
-				<ul id="main_menu_list" class"main_menu_nav"> 
-					<li class="main_menu_home"><a href="../index.html"class="hvr-float-shadow">Home</a></li>
-					<li class="main_menu_menu"><a href="menu.php"class="hvr-float-shadow">Menu</a></li>
-					<li class="main_menu_location"><a href="#"class="hvr-float-shadow">Location</a></li>
-					<li class="main_menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>		
-					<li class="more_menu"><img src="../images/menu-icon.png"class="hvr-float-shadow"></li>
-				</ul>
-			</div>
-			<!-- End of Navigation -->
-
-			
 			<div class="caption-1">
-				<span class="border">OUR MENU</span>
+				<span class="border">Our Menu</span>
 				<div class="arrow bounce"></div>
 			</div>
 		</div>
