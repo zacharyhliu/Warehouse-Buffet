@@ -75,6 +75,9 @@
 			<p class="kbbq-lunch-menu-1">
 			<!-- php code that parses the menu text file -->
 			<?php 
+			    $previous_encoding = mb_internal_encoding();
+			    mb_internal_encoding('UTF-8');
+			    mb_internal_encoding($previous_encoding);
 				$myKbbqMenu = fopen("../txt/kbbqMenu.txt", "r") or die("Connection Problem");
 				while(!feof($myKbbqMenu)){
 					echo fgets($myKbbqMenu) . "<br>";

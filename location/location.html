@@ -1,0 +1,143 @@
+<!-- Front page of WB -->
+<html>
+	<!-- Where metadata — information about the document — is placed -->
+	<head>
+
+	<style>
+      #map {
+        height: 400px;
+        width: 100%;
+       }
+    </style>
+
+		<title>Warehouse Buffet | Warehouse Buffet</title>
+		<link rel="icon" type="image/png" href="favicon.png">
+
+		<!-- Import css libraries -->
+		<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Amiko' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Yatra One' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet' type='text/css'>
+    	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    	<!--<link href='css/main.css' rel='stylesheet'>-->
+    	<link href='../css/main.css' rel='stylesheet'>
+    	<link href='../css/hover-min.css' rel='stylesheet'>
+    	<link href='../css/indexScrollAnimation.css' rel='stylesheet'>
+
+		<!-- Include jQuery libraries from Google, loads jQuery-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<!-- The write our code for menu -->
+		<script src="../js/moreMenu.js"></script>
+		<!-- Loads the API for the map -->
+		<script
+			async defer 
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACVVMg69LmN-NsyFU5ATAU9tpMN8wZ6hs&callback=initMap">
+		</script>
+		<script src="../js/google-map.js"></script>
+	</head>
+
+	<!-- Main content of the browser -->
+	<body>
+
+		<div class="navigation-bar">
+			<!-- Begin Nav Main menu -->
+			<div id="main-menu-block">
+				<!-- Logo of WB -->
+				<div class="wbLogo"><a href="../index.html"><img src="../images/wbLogo.jpg"></a></div>
+				<!-- The main menu list -->
+				<ul id="main_menu_list"> 
+					<li class="main_menu_home"><a href="../index.html"class="hvr-float-shadow">Home</a></li>
+					<li class="main_menu_menu"><a href="../menu/menu.php"class="hvr-float-shadow">Menu</a></li>
+					<li class="main_menu_location"><a href="location.html"class="hvr-float-shadow">Location</a></li>
+					<li class="main_menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
+					<!--li class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></li-->
+				</ul>
+				<div class="more_menu"><img src="../images/menu-icon.png"class="hvr-float-shadow"></div>
+
+			</div>
+		</div>
+
+		<!-- Beginning of Side Navigation Bar-->
+		<div class="menu">
+			<!-- The Close Menu icon (The X)-->
+			<div class="icon-close">
+				<img src="../images/icon_close.png">
+			</div>
+			<!-- Menu -->
+			<ul>
+				<!-- a href is a link to something placeholer #-->
+				<li id="menu_home"><a href="../index.html">Home</a></li>
+				<li id="menu_menu"><a href="../menu/menu.php">Menu</a></li>
+				<li id="menu_location"><a href="location.html">Location</a></li>
+				<li id="menu_aboutus"><a href="#">About Us</a></li>
+			</ul>
+		</div> <!-- end of menu group-->
+
+
+		<!-- The main body of the front page -->
+		<div class="bgimg-1" >
+			<div class="wb-name-block">
+			<div class="caption-1">
+				<span class="descript-1">Excellence You Can Taste</span>
+				<br>
+				<span class="wb_name">Warehouse Buffet</span>
+				<br>
+				<span class="descript-2">Korean B.B.Q. & Hotpot</span>
+				<div class="arrow bounce"></div>
+			</div>
+			</div>
+		</div>
+		<!-- End of Main Body of page -->
+		
+		<!-- Beginning of second containter -->
+		<div class="our-vision-block">
+			<div class="kbbq-vision-title">Our Vision</div>
+			<div>
+				<div id="google-map"></div>
+				<script>
+					function initMap() {
+						var uluru = {lat: 37.5438515, lng: -122.2716836};
+						// construct a map oject in the div element
+						var map = new google.maps.Map(document.getElementById('google-map'), {
+							zoom: 4,
+							center: uluru
+						});
+						// This code is to put a marker on the map
+						var marker = new google.maps.Marker({
+							position: uluru,
+							map: map
+						});
+					}
+				</script>
+				<script async defer 
+					src="https://maps.googleapis.com/maps/api/js?key=AIzaSyACVVMg69LmN-NsyFU5ATAU9tpMN8wZ6hs&callback=initMap">
+				</script>
+				<p class="our-vision-words">We want to bring you the most authentic and unique experience in both Korean BBQ and Hot Pot. With our location overseeing the beautiful lagoon, we wish to share a comfortable place where family and friends can enjoy quality dishes together. We hope to see you soon.</p>
+				<div class="social-media">
+					<a href="https://www.facebook.com/">
+						<img class="facebook-icon" src="images/facebook-icon.png">
+					</a>
+					
+					<a href="https://www.yelp.com/">
+						<img class="yelp-icon" src="images/yelp-icon.png">
+					</a>
+					<a href="#">
+						<img class="moreInfo-icon" src="images/moreInfo-icon.png">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!-- End of second container -->
+
+
+		<!-- Beginning of footer -->
+		<hr></hr>
+		<div class="footer-container">
+			<div class="copyright">Copyright &copy; 2016 Warehouse Buffet. All rights reserved.</div>
+		</div>	
+		<!-- End of Footer -->
+
+	</body>
+</html>
+

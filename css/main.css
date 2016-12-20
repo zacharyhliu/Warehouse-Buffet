@@ -1,9 +1,9 @@
 /* This is the css file for the front page of WB */
 /* Initial body */
 body {
-	left:0;
-	margin: 0;
-	position: relative;
+  left:0;
+  margin: 0;
+  position: relative;
   background-color: #000;
   overflow-x: hidden;
 }
@@ -37,17 +37,17 @@ body {
 
 /*The main menu screen links */
 #main_menu_list a{
-	  color: #fff;
-  	cursor: pointer; /* shows that the option is clickable */
-  	font-family: 'Yatra One', sans-serif;
-  	font-size: 16px;
-  	text-decoration: none;
-  	text-transform: uppercase;
+    color: #fff;
+    cursor: pointer; /* shows that the option is clickable */
+    font-family: 'Yatra One', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
     padding-top: 55px;
 }
 
 #main_menu_list li{
-	display: inline;
+  display: inline;
   text-align: right;
   padding-right: 150px;
 }
@@ -65,26 +65,31 @@ body {
 
 /* ------------------ first part of page ------------------*/
 .bgimg-1 {
-	background-image: url("../images/kbbqFrontPage.jpg"); 
-	min-height: 100%;
-	/* Web server built in renderer */
-	-webkit-background-size: cover;
+  background-image: url("../images/kbbqFrontPage.jpeg"); 
+  min-height: 100%;
+  /* Web server built in renderer */
+  -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
           background-size: cover;
 }
 .wb-name-block {
   background-color: rgba(0,0,0,0.7);
-  position: absolute;
-  transform: translate(37%, 80%); 
   
-}
-.caption-1 {
-  text-align: center;  
-  font-weight: 400;
+  position: relative;
+  width: 800px;
+  /* Centers the block */
+  margin-left:auto;
+  margin-right: auto;
+  top: 300px;
+
+  /* The text inside the block */
+  padding: 50px;
+  text-align: center;
+  font-weight: 400; 
   color: #FFF;
-  margin: 50px;
 }
+
 .descript-1 {
   font-family: "Dancing Script", sans-serif; 
   font-size: 30px;
@@ -119,7 +124,7 @@ body {
   background-attachment: fixed; /* wont scroll background */
   background-position: center;
   background-repeat: no-repeat;
-  background-image: url("../images/frontPage-2.jpg"); 
+  background-image: url("../images/frontPage-2.jpeg"); 
   min-height: 60%;
   /* Web server built in renderer */
   -webkit-background-size: cover;
@@ -187,22 +192,74 @@ body {
 }
 .vision-pic {
   position: absolute;
-  left: 20%;
-  top: 38%;
+  left: 23%; /* position from the left */
+  max-width: 25%;
+  max-height: 30%;
 }
 .our-vision-words {
   color: #FFF;
   position: relative;
-  left:60%;
+  width: 300px; /* The size of the div */
+  font-family: 'Lato', sans-serif;
+  line-height: 25px; /* This is line spacing */
+  left:53%;
   padding-bottom: 200px;
 }
+
+/* The social media block */
+.social-media {
+  position: relative;
+  padding-left: 56%;
+  bottom: 150px;
+}
+
+.facebook-icon {
+  padding-left: 10px;
+}
+
+.yelp-icon {
+  padding-left: 20px;
+}
+
+.moreInfo-icon {
+  padding-left: 20px;
+}
+
 /* --------------- Ending of Our Vision Block ---------------- */
 
 
 /* --------------- Beginning of Our Price Block -------------- */
 .our-price-block {
   background-color: #000;
-  text-align: justify;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.our-hours-words {
+  color: #FFF;
+  position: absolute;
+  left: 30%;
+  width: 300px;
+  font-family: 'Lato', sans-serif;
+  bottom: 200px;
+
+}
+
+.our-hours-title {
+   font-weight: bold;
+}
+
+.our-price-words {
+  color: #FFF;
+  position: relative;
+  left: 53%;
+  width: 300px;
+  font-family: 'Lato', sans-serif;
+  bottom: 60px;
+}
+
+.our-price-title {
+  font-weight: bold;
 }
 
 /* --------------- Ending of Our Price Block ----------------- */
@@ -222,12 +279,6 @@ body {
   font-size: 36px;
   font-style: italic;
   padding: 80px;
-}
-.our-price-words {
-  color: #FFF;
-  position: relative;
-  left:60%;
-  padding-bottom: 200px;
 }
 /* ----------- End of Footer ---------------------------- */
 
