@@ -112,6 +112,8 @@ body, html {
 /* -----------------Top part of menu page --------------------*/
 .bgimg-1{
 	
+  background-position: center;
+  background-attachment: fixed;
 	background-image: url("../images/menuTopImg.jpg");
 	min-height: 100%;
 	/* Web server built in renderer */
@@ -121,17 +123,28 @@ body, html {
           background-size: cover;
 }
 
-.caption-1 {
-	position: absolute;
-	left: 0;
-	top: 67%;
-	width: 100%;
-  	text-align: center;
-  	font-family: "Yatra One", sans-serif;
-  	font-size: 70px;
-  	font-weight: 400;
-  	color: #FFF;
+.wb-menu-block {
+  background-color: rgba(0,0,0,0.7);
+  
+  position: relative;
+  width: 800px;
+  /* Centers the block */
+  margin-left:auto;
+  margin-right: auto;
+  top: 300px;
+
+  /* The text inside the block */
+  padding: 50px;
+  text-align: center;
+  font-weight: 400; 
+  color: #FFF;
 }
+
+.border {
+  font-family: 'Yatra One', sans-serif;
+  font-size: 70px;
+}
+
 /* -----------End of top part menu page -------------------- */
 
 /* -----------Beginning of the menu ------------------------- */
@@ -150,11 +163,14 @@ body, html {
 	padding: 80px;
  }
 
-.kbbq-lunch-menu-1 {
+.kbbq-lunch-menu-1 { 
 	color: #eee;
 	font-family: 'Karla', sans-serif;
 	padding: 40px;
+  padding-bottom: 100px;
+  text-align: center;
 
+  font-size: 100px; /* temp font size */
 }
 /* ----------- End of the menu -------------------------- */
 

@@ -65,7 +65,11 @@ body {
 
 /* ------------------ first part of page ------------------*/
 .bgimg-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* wont scroll background */
   background-image: url("../images/kbbqFrontPage.jpeg"); 
+
   min-height: 100%;
   /* Web server built in renderer */
   -webkit-background-size: cover;
@@ -209,20 +213,23 @@ body {
 /* The social media block */
 .social-media {
   position: relative;
-  padding-left: 56%;
-  bottom: 150px;
+  left: 750px;
+  top: -190px;
 }
 
 .facebook-icon {
-  padding-left: 10px;
+  position: absolute;
+  left: 0px;
 }
 
 .yelp-icon {
-  padding-left: 20px;
+  position: absolute; /* relative to the one before it */
+  left: 50px;
 }
 
 .moreInfo-icon {
-  padding-left: 20px;
+  position: relative;
+  left: 100px;
 }
 
 /* --------------- Ending of Our Vision Block ---------------- */
@@ -255,7 +262,7 @@ body {
   left: 53%;
   width: 300px;
   font-family: 'Lato', sans-serif;
-  bottom: 60px;
+  bottom: 56.5px;
 }
 
 .our-price-title {

@@ -61,8 +61,7 @@
 
 		<!-- This is the top part of the menu page -->
 		<div class="bgimg-1">
-
-			<div class="caption-1">
+			<div class="wb-menu-block">
 				<span class="border">Our Menu</span>
 				<div class="arrow bounce"></div>
 			</div>
@@ -73,8 +72,9 @@
 		<div class="menu-container">
 			<div class="kbbq-menu-title"> All You Can Eat KBBQ</div>
 			<p class="kbbq-lunch-menu-1">
+			COMING SOON!
 			<!-- php code that parses the menu text file -->
-			<?php 
+			<!--<?php 
 			    $previous_encoding = mb_internal_encoding();
 			    mb_internal_encoding('UTF-8');
 			    mb_internal_encoding($previous_encoding);
@@ -83,7 +83,7 @@
 					echo fgets($myKbbqMenu) . "<br>";
 				}
 				fclose($myKbbqMenu);
-			?>
+			?>-->
 		</p>
 		</div>
 		<!-- End of menu -->
