@@ -1,0 +1,248 @@
+/* This is the css file for the front page of WB */
+/* Initial body */
+body, html {
+  left:0;
+  margin: 0;
+  position: relative;
+  background-color: #000;
+  overflow-x: hidden;
+}
+
+.wbLogo{
+  position: absolute;
+  padding: 18px;
+  float: left;
+  color: #FFF;
+}
+
+/* -----------------Beginning of Main Navigation Bar-------------------*/
+/*The main_menu_list*/
+.navigation-bar {
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  width: 100%;
+  text-align: right;
+}
+
+#main-menu-block {
+  margin: 0 auto;
+  width: 1200px;  
+}
+
+.main_menu_list{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+/*The main menu screen links */
+#main_menu_list a{
+    color: #fff;
+    cursor: pointer; /* shows that the option is clickable */
+    font-family: 'Yatra One', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding-top: 55px;
+}
+
+#main_menu_list li{
+  display: inline;
+  text-align: right;
+  padding-right: 150px;
+}
+/* Both the menu name and the icon */
+.more_menu {
+  color: #fff;
+  cursor: pointer; /* shows that the option is clickable */
+  text-decoration: none;
+  text-transform: uppercase;
+  position: absolute;
+  top: 64%;
+  right: 60px;
+}
+/* ------------------ End of Main Navigation Bar--------------------*/
+
+/* ------------------ first part of page ------------------*/
+.bgimg-1 {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; /* wont scroll background */
+  background-image: url("../images/location-main.jpg"); 
+
+  min-height: 103%;
+  /* Web server built in renderer */
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+.wb-name-block {
+  background-color: rgba(0,0,0,0.7);
+  
+  position: relative;
+  width: 500px;
+  /* Centers the block */
+  margin-left:auto;
+  margin-right: auto;
+  top: 300px;
+
+  /* The text inside the block */
+  padding: 50px;
+  text-align: center;
+  font-weight: 400; 
+  color: #FFF;
+}
+
+.wb_name {
+  font-family: 'Yatra One', sans-serif;
+  font-size: 70px;
+}
+.descript-2 {
+  font-family: "Dancing Script", sans-serif;  
+  font-size: 30px;
+}
+
+/* The Menu Screen when before it is clicked */
+.menu {
+
+  /* Background short-hand properties*/
+  /*background: url("../images/menuBg.jpg") repeat left top;*/
+  right: -355px; /*Starts off behind the scene */
+  height: 100%; /* takes the whole height*/
+  position: fixed;
+  width: 355px;
+  
+
+}
+/* ------------------- End of first part of Page -----------------*/
+
+
+/* ------------------- Second part of Page ----------------------*/
+.bgimg-2 {
+  position: relative;
+  background-attachment: fixed; /* wont scroll background */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("../images/frontPage-2.jpeg"); 
+  min-height: 60%;
+  /* Web server built in renderer */
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+/* ------------------- End of Second part of Page ---------------*/
+
+
+/* ---------------- Beginning of Side Menu Nav ----------------*/
+/* Styling of the unordered list */
+.menu ul {
+  /*border-top: 1px solid #636366;*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-top: 20px;
+}
+
+/* Styling of each list in the menu */
+.menu li {
+  /*border-bottom: 1px solid #636366; */
+  font-family: 'Amiko', sans-serif;
+  /*line-height: 45px;*/
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+/* The Text in the Menu */
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* The icon close button */
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+/* The menu Name */
+.icon-menu i {
+  margin-right: 5px;
+}
+/* ---------------- End of Side Menu Nav ---------------------*/
+
+/* ---------------- Beginning of Our Location Block --------------- */
+
+.our-location-block {
+  background-color: #000;
+  text-align: center;
+}
+.kbbq-location-title {
+  text-align: center;
+  color: #b48908;
+  font-weight: 400; /* how bold it is */
+  font-size: 36px;
+  font-style: italic;
+  padding: 80px;
+}
+
+#google-map {
+  height: 320px;
+  width: 431px;
+  position: absolute;
+  left: 140px;
+}
+
+.our-location-words {
+  color: #FFF;
+  position: relative;
+  width: 340px; /* The size of the div */
+  font-family: 'Lato', sans-serif;
+  line-height: 25px; /* This is line spacing */
+  left:53%;
+  padding-bottom: 200px;
+  top: 30px;
+}
+
+.our-address-title {
+  font-weight: bold;
+}
+.our-phone-num {
+  font-weight: bold;
+}
+
+
+
+/* --------------- Ending of Our Location Block ---------------- */
+
+
+/* --------------- Beginning of Gallery Block -------------- */
+
+
+/* --------------- Ending of Gallery Block ----------------- */
+
+
+/* ----------- Beginning of Footer ---------------------- */
+.copyright {
+  color: #ABB2B9;
+  font-family: 'Karla', sans-serif;
+  font-size: 12px;
+  padding: 40px;
+}
+.kbbq-price-title {
+  text-align: center;
+  color: #b48908;
+  font-weight: 400; /* how bold it is */
+  font-size: 36px;
+  font-style: italic;
+  padding: 80px;
+}
+/* ----------- End of Footer ---------------------------- */
+
+
+

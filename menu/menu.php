@@ -31,7 +31,7 @@
 				<ul id="main_menu_list"> 
 					<li class="main_menu_home"><a href="../index.html"class="hvr-float-shadow">Home</a></li>
 					<li class="main_menu_menu"><a href="menu.php"class="hvr-float-shadow">Menu</a></li>
-					<li class="main_menu_location"><a href="#"class="hvr-float-shadow">Location</a></li>
+					<li class="main_menu_location"><a href="../location/location.html"class="hvr-float-shadow">Location</a></li>
 					<li class="main_menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
 					<!--li class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></li-->
 				</ul>
@@ -51,10 +51,10 @@
 			<!-- Menu -->
 			<ul>
 				<!-- a href is a link to something placeholer #-->
-				<li id="menu_home"><a href="../index.html">Home</a></li>
-				<li id="menu_menu"><a href="menu.php">Menu</a></li>
-				<li id="menu_location"><a href="#">Location</a></li>
-				<li id="menu_aboutus"><a href="#">About Us</a></li>
+				<li id="menu_home"><a href="../index.html"class="hvr-float-shadow">Home</a></li>
+				<li id="menu_menu"><a href="menu.php"class="hvr-float-shadow">Menu</a></li>
+				<li id="menu_location"><a href="../location/location.html"class="hvr-float-shadow">Location</a></li>
+				<li id="menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
 			</ul>
 		</div> 
 		<!-- end of Side Menu Nav-->

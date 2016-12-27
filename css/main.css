@@ -1,6 +1,6 @@
 /* This is the css file for the front page of WB */
 /* Initial body */
-body {
+body, html {
   left:0;
   margin: 0;
   position: relative;
@@ -70,7 +70,7 @@ body {
   background-attachment: fixed; /* wont scroll background */
   background-image: url("../images/kbbqFrontPage.jpeg"); 
 
-  min-height: 100%;
+  min-height: 103%;
   /* Web server built in renderer */
   -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -228,7 +228,7 @@ body {
 }
 
 .moreInfo-icon {
-  position: relative;
+  position: absolute;
   left: 100px;
 }
 
