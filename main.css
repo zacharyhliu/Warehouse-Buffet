@@ -85,7 +85,7 @@ body, html {
   /* Centers the block */
   margin-left:auto;
   margin-right: auto;
-  top: 200px;
+  top: 250px;
 
   /* The text inside the block */
   padding: 50px;
@@ -219,17 +219,17 @@ body, html {
 
 .facebook-icon {
   position: absolute;
-  left: 0px;
+  left: 20px;
 }
 
 .yelp-icon {
   position: absolute; /* relative to the one before it */
-  left: 50px;
+  left: 70px;
 }
 
 .moreInfo-icon {
   position: absolute;
-  left: 100px;
+  left: 120px;
 }
 
 /* --------------- Ending of Our Vision Block ---------------- */

@@ -1,0 +1,12 @@
+/* The pages will start with opacity: 0 and when it is deleted the body will run the transition
+ to opacity 1(default) in 1s*/
+body {
+	/* It gets the opacity from .fade-out, the class of every body tag */
+    transition: 1s opacity;
+}
+/* This class acts as a dummy for opacity css property, it will be deleted 
+right after it is executed by a javascript code in more menu*/
+.fade-out {
+    opacity: 0;
+}
+ 

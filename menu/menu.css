@@ -127,7 +127,7 @@ body, html {
   background-color: rgba(0,0,0,0.7);
   
   position: relative;
-  width: 300px;
+  width: 500px;
   /* Centers the block */
   margin-left:auto;
   margin-right: auto;
@@ -143,6 +143,11 @@ body, html {
 .border {
   font-family: 'Yatra One', sans-serif;
   font-size: 70px;
+}
+
+.descript {
+  font-family: "Dancing Script", sans-serif;  
+  font-size: 30px;
 }
 
 /* -----------End of top part menu page -------------------- */

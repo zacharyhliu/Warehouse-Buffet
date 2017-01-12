@@ -68,7 +68,7 @@ body, html {
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed; /* wont scroll background */
-  background-image: url("../images/kbbqFrontPage.jpeg"); 
+  background-image: url("../images/about1.jpg"); 
 
   min-height: 103%;
   /* Web server built in renderer */
@@ -81,11 +81,11 @@ body, html {
   background-color: rgba(0,0,0,0.7);
   
   position: relative;
-  width: 800px;
+  width: 500px;
   /* Centers the block */
   margin-left:auto;
   margin-right: auto;
-  top: 200px;
+  top: 300px;
 
   /* The text inside the block */
   padding: 50px;
@@ -94,10 +94,6 @@ body, html {
   color: #FFF;
 }
 
-.descript-1 {
-  font-family: "Dancing Script", sans-serif; 
-  font-size: 30px;
-}
 .wb_name {
   font-family: 'Yatra One', sans-serif;
   font-size: 70px;
@@ -180,13 +176,13 @@ body, html {
 }
 /* ---------------- End of Side Menu Nav ---------------------*/
 
-/* ---------------- Beginning of Our Vision Block --------------- */
+/* ---------------- Beginning of Our Location Block --------------- */
 
-.our-vision-block {
+.our-location-block {
   background-color: #000;
-  text-align: justify;
+  text-align: center;
 }
-.kbbq-vision-title {
+.kbbq-location-title {
   text-align: center;
   color: #b48908;
   font-weight: 400; /* how bold it is */
@@ -194,82 +190,43 @@ body, html {
   font-style: italic;
   padding: 80px;
 }
-.vision-pic {
+
+.about-pic {
   position: absolute;
-  left: 23%; /* position from the left */
-  max-width: 25%;
-  max-height: 30%;
+  height: 350px;
+  width: 530px;
+  left: 25%;
 }
-.our-vision-words {
+
+
+.our-location-words {
   color: #FFF;
   position: relative;
-  width: 300px; /* The size of the div */
+  width: 340px; /* The size of the div */
   font-family: 'Lato', sans-serif;
   line-height: 25px; /* This is line spacing */
-  left:53%;
+  left:58%;
   padding-bottom: 200px;
+  top: 8px;
 }
 
-/* The social media block */
-.social-media {
-  position: relative;
-  left: 750px;
-  top: -190px;
-}
-
-.facebook-icon {
-  position: absolute;
-  left: 0px;
-}
-
-.yelp-icon {
-  position: absolute; /* relative to the one before it */
-  left: 50px;
-}
-
-.moreInfo-icon {
-  position: absolute;
-  left: 100px;
-}
-
-/* --------------- Ending of Our Vision Block ---------------- */
-
-
-/* --------------- Beginning of Our Price Block -------------- */
-.our-price-block {
-  background-color: #000;
-  text-align: center;
-  padding-bottom: 100px;
-}
-
-.our-hours-words {
-  color: #FFF;
-  position: absolute;
-  left: 30%;
-  width: 300px;
-  font-family: 'Lato', sans-serif;
-  bottom: 200px;
-
-}
-
-.our-hours-title {
-   font-weight: bold;
-}
-
-.our-price-words {
-  color: #FFF;
-  position: relative;
-  left: 53%;
-  width: 300px;
-  font-family: 'Lato', sans-serif;
-  bottom: 56.5px;
-}
-
-.our-price-title {
+.our-address-title {
   font-weight: bold;
+  font-size: 150%;
 }
+/*.our-phone-num {*/
+/*  font-weight: bold;*/
+/*}*/
 
-/* --------------- Ending of Our Price Block ----------------- */
+
+
+/* --------------- Ending of Our Location Block ---------------- */
+
+
+/* --------------- Beginning of Gallery Block -------------- */
+
+
+/* --------------- Ending of Gallery Block ----------------- */
 
 
 /* ----------- Beginning of Footer ---------------------- */

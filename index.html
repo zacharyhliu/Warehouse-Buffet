@@ -14,18 +14,20 @@
     	<link href='http://fonts.googleapis.com/css?family=Dancing Script' rel='stylesheet' type='text/css'>
     	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     	<!--<link href='css/main.css' rel='stylesheet'>-->
-    	<link href='css/main.css' rel='stylesheet'>
+    	<link href='main.css' rel='stylesheet'>
     	<link href='css/hover-min.css' rel='stylesheet'>
     	<link href='css/indexScrollAnimation.css' rel='stylesheet'>
+    	<link href='css/transition.css' rel='stylesheet'>
 
 		<!-- Include jQuery libraries from Google, loads jQuery-->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 		<!-- The write our code for menu -->
 		<script src="js/moreMenu.js"></script>
+		<script src="js/transition.js"></script>
 	</head>
 
 	<!-- Main content of the browser -->
-	<body>
+	<body class="fade-out">
 
 		<div class="navigation-bar">
 			<!-- Begin Nav Main menu -->
@@ -37,7 +39,7 @@
 					<li class="main_menu_home"><a href="index.html"class="hvr-float-shadow">Home</a></li>
 					<li class="main_menu_menu"><a href="menu/menu.php"class="hvr-float-shadow">Menu</a></li>
 					<li class="main_menu_location"><a href="location/location.html"class="hvr-float-shadow">Location</a></li>
-					<li class="main_menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
+					<li class="main_menu_aboutus"><a href="about/about.html"class="hvr-float-shadow">About Us</a></li>
 					<!--li class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></li-->
 				</ul>
 				<div class="more_menu"><img src="images/menu-icon.png"class="hvr-float-shadow"></div>
@@ -57,7 +59,7 @@
 				<li id="menu_home"><a href="index.html"class="hvr-float-shadow">Home</a></li>
 				<li id="menu_menu"><a href="menu/menu.php"class="hvr-float-shadow">Menu</a></li>
 				<li id="menu_location"><a href="location/location.html"class="hvr-float-shadow">Location</a></li>
-				<li id="menu_aboutus"><a href="#"class="hvr-float-shadow">About Us</a></li>
+				<li id="menu_aboutus"><a href="about/about.html"class="hvr-float-shadow">About Us</a></li>
 			</ul>
 		</div> <!-- end of menu group-->
 
@@ -80,8 +82,8 @@
 			<div class="kbbq-vision-title">Our Vision</div>
 			<div>
 				<img class="vision-pic" src="images/Our-Vision.jpg">
-				<p class="our-vision-words">We want to bring you the most authentic and unique experience in both Korean BBQ and Hot Pot. With our location overseeing the beautiful lagoon, we wish to share a comfortable place where family and friends can enjoy quality dishes together. We hope to see you soon.</p>
-				<div class="social-media">
+				<div class="our-vision-words">We want to bring you the most authentic and unique experience in both Korean BBQ and Hot Pot. With our location overseeing the beautiful lagoon, we wish to share a comfortable place where family and friends can enjoy quality dishes together. We hope to see you soon.<!-- </div> -->
+				<!-- <div class="social-media"> -->
 					<div ><a href="https://www.facebook.com/WHbuffet/">
 						<img class="facebook-icon" src="images/facebook-icon.png">
 					</a></div>
@@ -89,7 +91,7 @@
 					<div ><a href="https://www.yelp.com/">
 						<img class="yelp-icon" src="images/yelp-icon.png">
 					</a></div>
-					<div ><a href="#">
+					<div ><a href="about/about.html">
 						<img class="moreInfo-icon" src="images/moreInfo-icon.png">
 					</a></div>
 				</div>

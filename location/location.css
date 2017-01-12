@@ -195,7 +195,7 @@ body, html {
   height: 320px;
   width: 431px;
   position: absolute;
-  left: 140px;
+  left: 30%;
 }
 
 .our-location-words {
@@ -223,6 +223,106 @@ body, html {
 
 /* --------------- Beginning of Gallery Block -------------- */
 
+.gallery-title {
+  text-align: center;
+  color: #b48908;
+  font-weight: 400; /* how bold it is */
+  font-size: 36px;
+  font-style: italic;
+  padding: 10px;
+}
+
+#gallery_container {
+  width: 1000px;
+  overflow: hidden;
+  margin: 0px auto;
+  margin-bottom: 120px;
+  background: black;
+}
+
+.gallery {
+  height: 233px;
+  width: 4250px; /* 350 * 12 */
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* a smooth transition when it is scaled */
+.gallery img {
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+/* When hovered, it enlarges and there is a shadow */
+.gallery img:hover {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  cursor: pointer;
+ 
+  -webkit-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  -moz-box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+  box-shadow: 0px 3px 5px rgba(0,0,0,0.2);
+}
+
+/* Keyframe animation */
+.first { /* name the animation: bannermove, set duration, set repitition to infinite */
+  -webkit-animation: bannermove 50s linear infinite;
+     -moz-animation: bannermove 50s linear infinite;
+      -ms-animation: bannermove 50s linear infinite;
+       -o-animation: bannermove 50s linear infinite;
+          animation: bannermove 50s linear infinite;
+}
+
+/* define our frames using the @keyframes syntax. */
+/* Set margin to a negative value to move the line of images 
+   left far enough that the second iteration of the first image takes the initial spot */
+@keyframes "bannermove" {
+  0% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: -2825px; /* 350 * 8 */
+  }
+}
+@-moz-keyframes bannermove {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2825px;
+ }
+}
+@-webkit-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2825px;
+ }
+}
+@-ms-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2825px;
+ }
+}
+@-o-keyframes "bannermove" {
+ 0% {
+   margin-left: 0px;
+ }
+ 100% {
+   margin-left: -2825px;
+ }
+}
+/* keyframe animation end */
 
 /* --------------- Ending of Gallery Block ----------------- */
 
