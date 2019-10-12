@@ -4,7 +4,7 @@ Prototype Website for Warehouse Buffet
 Warehouse Buffet Website
 ====================
 
-Created by James Frank Yang.
+Created by James Frank Yang and maintained by Zachary Liu.
 
 You may modify and redistribute this code under the following conditions:
 
